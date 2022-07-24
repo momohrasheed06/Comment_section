@@ -1,0 +1,97 @@
+
+body{
+    font-family: cursive;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.heading{
+    color: white;
+}
+.contain{
+    width: 60%;
+    height: fit-content;
+    border: 1px solid #06283D;
+    background-color: #06283D;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.fill{
+    color: #383838;
+    border-radius: 5px;
+    width: 80%;
+    height: fit-content;
+    margin: 2rem auto 0 auto;
+    padding: 2rem .5rem;
+    text-align: center;
+}
+.fill p{
+    color: white;
+}
+input {
+    width: 80%;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.setName {
+    width: 38.4%;
+}
+#message {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2rem;
+    height: 15vh;
+}
+button {
+    padding: 0.5rem;
+    font-size: larger;
+    margin-top: 10px;
+    background-color: #1363DF;
+    border: 1px solid #1363DF;
+    border-radius: 5px;
+    color: #fafafa;
+}
+button:hover{
+    background-color: white;
+    color: #1363DF;
+    cursor: pointer;
+}
+
+.reserve{
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-heading{
+    color: #fafafa;
+}
+
+.card{
+    background-color: #1363DF;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.delete{
+    background-color: #ff000077;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
